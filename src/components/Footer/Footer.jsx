@@ -29,7 +29,9 @@ const Footer = () => {
             <li>Privacy Policy</li>
           </ul>
         </div>
-        <div className="footer-content-right"></div>
+        <div className="footer-content-right">
+           <h1>GET IN TOUCH WITH US</h1>
+        </div>
       </div>
     </div>
   );
