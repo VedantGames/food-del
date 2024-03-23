@@ -30,9 +30,17 @@ const Footer = () => {
           </ul>
         </div>
         <div className="footer-content-right">
-           <h1>GET IN TOUCH WITH US</h1>
+          <h1>GET IN TOUCH </h1>
+          <ul>
+            <li>+971-55-370-8833</li>
+            <li>tomato123@gmail.com</li>
+          </ul>
         </div>
       </div>
+      <hr />
+      <p className="footer-copyright">
+        Copyright 2024 © Tomato.com || All right reserved.
+      </p>
     </div>
   );
 };
