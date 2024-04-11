@@ -1,0 +1,61 @@
+.accountPageContainer {
+  height: 36.6vh;
+}
+
+.userNameContainer {
+  margin-top: 2rem;
+  display: flex;
+}
+
+.userNameLabel {
+  margin-top: 0.5rem;
+}
+
+.userName {
+  margin-left: 1rem;
+}
+
+.emailContainer {
+  margin-top: 1rem;
+  display: flex;
+}
+
+.emailLabel {
+  margin-top: 0.5rem;
+  margin-right: 1rem;
+}
+
+.dishesBtnContaier {
+  display: flex;
+  gap: 4px;
+  margin-top: 1.5rem;
+}
+
+.addBtn {
+  border: 5px tomato solid;
+  background-color: transparent;
+  color: tomato;
+  border-radius: 10px;
+  padding: 0.7rem 3.7rem 0.7rem 3.7rem;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.addBtn:hover {
+  background-color: tomato;
+  color: white;
+}
+
+.viewDishesBtn {
+  border: none;
+  background-color: tomato;
+  color: white;
+  border-radius: 10px;
+  padding: 1rem 4rem 1rem 4rem;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.viewDishesBtn:hover {
+  background-color: rgb(250, 84, 55);
+}
