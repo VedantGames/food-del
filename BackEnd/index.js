@@ -16,7 +16,7 @@ mongoose.connect("mongodb+srv://guptavedant2549:YjH8b1GcI7sPUkpf@tomatodb.sl3bsh
 app.use(express.json());
 app.use(cors({
   credentials: true,
-  origin: 'http://localhost:5173',
+  origin: 'https://tomato-ten.vercel.app',
 }));
 app.use('/DishImages', express.static(__dirname+'/DishImages'))
 
