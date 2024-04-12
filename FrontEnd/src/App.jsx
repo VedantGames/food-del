@@ -12,7 +12,7 @@ import Account from "./pages/Account/Account";
 import AddDish from "./pages/AddDish/AddDish";
 import Dishes from "./pages/Dishes/Dishes";
 
-axios.defaults.baseURL = 'https://tomato-server.vercel.app';
+axios.defaults.baseURL = 'https://tomato-server.vercel.app/';
 axios.defaults.withCredentials = true;
 
 const App = () => {
